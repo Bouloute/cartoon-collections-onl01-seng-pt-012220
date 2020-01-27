@@ -5,12 +5,9 @@ def roll_call_dwarves(names)
 end
 
 def summon_captain_planet(elements)
-  called_elements = []
   elements.collect{|element|
-    #called_elements.push("#{element.capitalize}!")
     "#{element.capitalize}!"
   }
-  #called_elements
 end
 
 def long_planeteer_calls# code an argument here
