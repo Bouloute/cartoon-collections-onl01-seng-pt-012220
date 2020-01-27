@@ -6,10 +6,10 @@ end
 
 def summon_captain_planet(elements)
   called_elements = []
-  elements.each{|element|
+  elements.collect{|element|
     called_elements.push("#{element.capitalize}!")
   }
-  called_elements
+  #called_elements
 end
 
 def long_planeteer_calls# code an argument here
